@@ -39,6 +39,9 @@ const algoSelect = {
   },
   '.css-1636szt': {
     color: '#1976d2 !important'
+  },
+  '.css-qiwgdb.Mui-disabled': {
+    WebkitTextFillColor:'#bdbdbd'
   }
 };
 
