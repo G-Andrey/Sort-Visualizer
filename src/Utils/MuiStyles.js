@@ -42,6 +42,9 @@ const algoSelect = {
   },
   '.css-qiwgdb.Mui-disabled': {
     WebkitTextFillColor:'#bdbdbd'
+  },
+  '.css-1yhq19e': {
+    color: '#1976d2 !important'
   }
 };
 
