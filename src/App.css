@@ -1,38 +1,111 @@
-.App {
-  text-align: center;
+.graph-container-wrapper{
+  background-color: var(--secondary-color); 
+  margin: 25px; 
+  border-radius: 10px; 
+  box-shadow: 0 0 25px white;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.wrapper{
+  display:flex;justify-content:center;
+  align-items:center;
+  height: 50px;
+  padding-top: 40px;
+  position: relative;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.graph-container{
+  display: flex; 
+  flex-direction: row; 
+  align-items: flex-end;
+  justify-content: space-around;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.bar-container{
+  display: flex; 
+  height: 250px; 
+  align-items: flex-end; 
+  text-align: center; 
+  flex: 1;
+}
+
+.bar{
+  background-color: white; 
+  width: 100%; 
+  box-shadow: 0 0 5px #1976d2;
+}
+
+.bar-text{
+  font-size:.7vw; 
+  text-align: center; 
+  position: relative; 
+  bottom: 20px; 
+  color: white; 
+  font-weight: 600; 
+  font-style: italic;
+}
+
+.graph-btn-bar{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.settings-container{
+  width: 100%; 
+  padding: 15px; 
+  display: flex; 
+  flex-direction: column; 
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.settings-seperator{
+  margin: 10px 0px;
+}
+
+.checkmark__circle{
+  stroke-dasharray: 166;
+  stroke-dashoffset: 166;
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+  stroke: #0cf50c;
+  fill: none;animation: 
+  stroke 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards
+}
+.checkmark{
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: block;
+  stroke-width: 2;
+  stroke: #fff;
+  stroke-miterlimit: 10;
+  margin: 10% auto;
+  box-shadow: inset 0px 0px 0px #0cf50c;
+  animation: fill .4s ease-in-out .4s forwards, scale .3s ease-in-out .9s both
+}
+
+.checkmark__check{
+  transform-origin: 50% 50%;
+  stroke-dasharray: 48;
+  stroke-dashoffset: 48;
+  animation: stroke 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.8s forwards
+}
+
+@keyframes stroke{
+  100% {stroke-dashoffset: 0}
+}
+@keyframes scale{
+  0%, 
+  100%{
+    transform: none
   }
-  to {
-    transform: rotate(360deg);
+  50%{
+    transform: scale3d(1.1, 1.1, 1)
+  }
+}
+@keyframes fill{
+  100%{
+    box-shadow: inset 0px 0px 0px 30px #7ac142
   }
 }
