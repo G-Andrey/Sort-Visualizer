@@ -33,6 +33,9 @@ const algoSelect = {
   },
   '.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.Mui-disabled': {
     WebkitTextFillColor:'#bdbdbd'
+  },
+  '.css-igs3ac': {
+    borderColor:'#1976d2 !important'
   }
 };
 
@@ -46,6 +49,9 @@ const radioButtonLabel = {
   }, 
   '.Mui-disabled': {
     color:'#bdbdbd !important'
+  },
+  '.css-9l3uo3': {
+    fontSize:'13px !important'
   }
 };
 
