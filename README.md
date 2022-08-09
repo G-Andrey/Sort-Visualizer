@@ -2,6 +2,9 @@
 
 🌟Hosted @ https://g-andrey.github.io/Sort-Visualizer/ 🌟
 
+## Demo 📽️
+
+
 ## Motivation 🎯
 The goal of this project was to better understand various sorting algorithms by implementing them in JavaScript and visualizing the steps that each algorithm takes in sorting an array. 
 The following algorithms along with their animations were implemented:
@@ -12,5 +15,3 @@ The following algorithms along with their animations were implemented:
 - Merge Sort
 - Quick Sort
 - Heap Sort
-
-## Demo 📽️
