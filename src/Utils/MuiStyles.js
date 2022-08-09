@@ -36,6 +36,9 @@ const algoSelect = {
   },
   '.css-igs3ac': {
     borderColor:'#1976d2 !important'
+  },
+  '.css-1636szt': {
+    color: '#1976d2 !important'
   }
 };
 
