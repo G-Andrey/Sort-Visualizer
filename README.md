@@ -1,4 +1,4 @@
-# Sort Visualizer Web App with React
+# Sort Visualizer Web App with React :bar_chart:
 
 🌟Hosted @ https://g-andrey.github.io/Sort-Visualizer/ 🌟
 
